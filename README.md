@@ -5,7 +5,7 @@ It works on **macOS (M1/M2/Intel)** and has been tested with the specified packa
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### **Install Conda (If You Don't Have It)**
 [Download Miniconda](https://docs.conda.io/en/latest/miniconda.html) and install it.
@@ -31,19 +31,22 @@ cd colmap-gradio
 pip install -r requirements.txt
 ```
 This ensures that all packages (Gradio, Pandas, NumPy, etc.) are installed with the correct versions.
+<br><br>
 
-## Usage
+## 🚀 Usage
 
 Start the UI by running
 ```bash
 python gradio_colmap.py
 ```
+Open the UI via your web browser by navigating to `http://127.0.0.1:7860/`
+
 
 1. Input your workspace directory. This should include a subsfolder called `images`
 2. Select your feature matching type. Spatial is for imagery that is geotagged.
 3. The processing log will display once complete
-
-## Troubleshooting
+<br><br>
+## 🔧 Troubleshooting
 
 Issue: "botocore 1.20.112 requires urllib3<1.27, but you have urllib3 2.3.0"
 Solution:
