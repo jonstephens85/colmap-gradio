@@ -16,6 +16,12 @@ This is done easiest through [Brew](https://brew.sh/):
 brew install colmap
 ```
 
+### **Install ImageMagick**
+This is done easiest through [Brew](https://brew.sh/):
+```bash
+brew install imagemagick
+```
+
 ### **Create and Activate the Conda Environment**
 Run the following in a terminal:
 
@@ -41,8 +47,8 @@ python gradio_colmap.py
 ```
 Open the UI via your web browser by navigating to `http://127.0.0.1:7860/`
 
-
 1. Input your workspace directory. This should include a subsfolder called `images`
+2. Select downscale factor.
 2. Select your feature matching type. Spatial is for imagery that is geotagged.
 3. The processing log will display once complete
 <br><br>
@@ -59,5 +65,4 @@ Solution:
 ```bash
 pip install gradio_client
 ```
-
 
