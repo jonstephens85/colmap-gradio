@@ -43,7 +43,7 @@ This ensures that all packages (Gradio, Pandas, NumPy, etc.) are installed with 
 
 Start the UI by running
 ```bash
-python gradio_colmap.py
+python colmap_gradio.py
 ```
 Open the UI via your web browser by navigating to `http://127.0.0.1:7860/`
 
