@@ -3,6 +3,8 @@
 This project provides a **Gradio-based UI** for running **COLMAP** without using the command line.  
 It works on **macOS** and has been tested with the specified package versions.
 
+Watch the [video guide](https://youtu.be/VM6trBcPlaU) to make it easier to follow along!!! 
+
 ---
 
 ## ⚙️ Installation
