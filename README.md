@@ -52,18 +52,4 @@ Open the UI via your web browser by navigating to `http://127.0.0.1:7860/`
 2. Select downscale factor.
 2. Select your feature matching type. Spatial is for imagery that is geotagged.
 3. The processing log will display once complete
-<br><br>
-## 🔧 Troubleshooting
-
-Issue: "botocore 1.20.112 requires urllib3<1.27, but you have urllib3 2.3.0"
-Solution:
-```bash
-pip install "urllib3<1.27" --force-reinstall
-```
-
-Issue: "No module named gradio_client"
-Solution:
-```bash
-pip install gradio_client
-```
 
