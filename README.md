@@ -35,6 +35,7 @@ conda activate colmap_env
 git clone https://github.com/jonstephens85/colmap-gradio.git
 cd colmap-gradio
 pip install -r requirements.txt
+pip install gradio==4.43.0 --no-deps
 ```
 This ensures that all packages (Gradio, Pandas, NumPy, etc.) are installed with the correct versions.
 <br><br>
